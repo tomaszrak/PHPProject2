@@ -7,7 +7,7 @@ class router {
     public $controller;
     public $action;
 
-    function __construct($registry) {
+    function __construct($registry) { 
         $this->registry = $registry;
     }
 
